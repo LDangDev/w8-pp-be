@@ -107,7 +107,8 @@
             "400": {
               "description": "Invalid input"
             }
-          }
+          },
+          "security": []
         }
       },
       "/users/login": {
@@ -135,7 +136,8 @@
             "400": {
               "description": "Invalid credentials"
             }
-          }
+          },
+          "security": []
         }
       },
       "/todotasks": {
@@ -157,8 +159,7 @@
             "500": {
               "description": "Server error"
             }
-          },
-          "security": []
+          }
         },
         "post": {
           "summary": "Create a new todo task",
@@ -180,8 +181,7 @@
             "500": {
               "description": "Server error"
             }
-          },
-          "security": []
+          }
         }
       },
       "/todotasks/{id}": {
@@ -213,8 +213,7 @@
             "500": {
               "description": "Server error"
             }
-          },
-          "security": []
+          }
         },
         "put": {
           "summary": "Update a todo task by ID",
@@ -296,7 +295,8 @@
             "500": {
               "description": "Failed to retrieve tours"
             }
-          }
+          },
+          "security": []
         },
         "post": {
           "summary": "Create a new tour",
@@ -318,7 +318,8 @@
             "400": {
               "description": "Invalid input"
             }
-          }
+          },
+          "security": []
         }
       },
       "/tours/{tourId}": {
@@ -350,7 +351,8 @@
             "500": {
               "description": "Failed to retrieve tour"
             }
-          }
+          },
+          "security": []
         },
         "put": {
           "summary": "Update a tour by ID",
